@@ -1,0 +1,23 @@
+
+/* Styles for the containers */
+
+.flex-container-weekend {
+  grid-row: row 3;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+}
+
+.flex-container-offbeatenpath {
+  grid-row: row 4;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+}
+
+.flex-container-adventure {
+  grid-row: row 5;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+}

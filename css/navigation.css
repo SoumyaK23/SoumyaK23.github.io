@@ -1,0 +1,28 @@
+/* Style the top navigation bar */
+.navigation {
+    grid-column: col 1/ span 4;
+    grid-row: row 2;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 5px;
+    color: purple;
+    font-size: large;
+}
+
+/* Style the navigation bar links */
+.navigation a {
+    color: rgb(53, 2, 53);
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+    /* Change color on hover */
+.navigation a:hover {
+    color: purple;
+    color: cornsilk;
+}

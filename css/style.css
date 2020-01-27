@@ -1,3 +1,10 @@
+@import url(heading.css);
+@import url(navigation.css);
+@import url(sidebar.css);
+@import url(card.css);
+@import url(containers.css);
+@import url(footer.css);
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .column {
@@ -23,164 +30,20 @@ body {
     border-radius: 10px;
 }
 
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip:objects
+section h1 {
+  font-family: sans-serif;
+  font-size: 36px;
 }
 
-/* Style for the header */
-.heading {
-    grid-column: col 1/ span 4;
-    grid-row: row 1;
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
-    color: #661;
-    font-size: large;
+section h2 {
+  font-family: sans-serif;
+  font-size: 26px;
 }
 
-.images {
-  height: 100px;
-  width: auto;
-}
-    
-/* Style the top navigation bar */
-.navigation {
-    grid-column: col 1/ span 4;
-    grid-row: row 2;
-    padding: 5px;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    border-radius: 5px;
-    color: purple;
-    font-size: large;
+section h3 {
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
-/* Style the navigation bar links */
-.navigation a {
-    color: purple;
-    padding: 10px 10px;
-    text-decoration: none;
-    text-align: center;
-}
 
-    /* Change color on hover */
-.navigation a:hover {
-    color: purple;
-    color: cornsilk;
-}
 
-.flex-container-weekend {
-  grid-row: row 3;
-  display: flex;
-  flex-direction: row wrap;
-  justify-content: center;
-}
-
-.flex-container-offbeatenpath {
-  grid-row: row 4;
-  display: flex;
-  flex-direction: row wrap;
-  justify-content: center;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(231, 228, 13, 0.2);
-    transition: 0.3s;
-    margin: 2rem 1rem;
-    width: 85%;
-    border-radius: 5px;
-}
-
-.card div {
-    font-size: 13px;
-    font-weight: 400;
-    justify-items: center;
-}
-
-.card p {
-    font-size: 13px;
-    font-weight: 400;
-    justify-items: center;
-}
-
-.card h4 {
-    font-size: 18px;
-    font-weight: 400;
-    justify-items: center;
-
-}
-  
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(228, 10, 10, 0.2);
-    cursor:pointer;
-    transform: scale(1.05);
-    color: yellowgreen;
-}
-  
-.card-container {
-    width: 90%;
-    font-size: 2rem;
-    padding: 10px;
-    justify-items: center;
-    text-align: center;
-}
-
-.card-button,
-.card-button:link,
-.card-button:visited {
-    background-color: #661;
-    color: #fae7d6;
-    border: none;
-    border-radius: 20px;
-    margin:4rem 4rem 0;
-    padding: 1rem 1rem;
-    font-size: 1 rem;
-    text-align: center;
-    text-decoration: none;
-    transition: all .3s;
-    display: block;
-    width: 5rem;
-    box-shadow: 0 .4rem .5rem rgba(0, 0, 0, .2);
-}
-
-.card-button:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    box-shadow: 0 1rem 2rem rgba(65, 10, 10, 0.2);
-}
-
-.card-button:active {
-    transform: scale(.98);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-}
-
-.footer {
-    grid-column: col 1/ span 4;
-    grid-row: row 6;
-    display: flex;
-    border-radius: 5px;
-    padding: 50px;
-    text-align: center;
-    font-size: x-small;
-}
-
-.footer img {
-    height: 50px;
-    width: auto;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-    border-top: 1px solid #c4c4c4;
-    padding: 5px 0;
-}
-    
-
-}
