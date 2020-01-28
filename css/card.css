@@ -6,7 +6,15 @@
     border-radius: 5px;
 }
 
-.card div {
+.card-title {
+    width: 90%;  
+    padding: 5px;
+    justify-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-text{
     font-size: 13px;
     font-weight: 400;
     justify-items: center;
@@ -17,22 +25,10 @@
     font-weight: 400;
     justify-items: center;
 }
-
-.card img{
-    width: 100%;
-
-}
-.card h4 {
-    font-size: 18px;
-    font-weight: 400;
-    justify-items: center;
-
-}
   
-.card:hover {
+.card:hover{
     box-shadow: 0 8px 16px 0 rgba(228, 10, 10, 0.2);
     cursor:pointer;
-    transform: scale(1.05);
     color: yellowgreen;
 }
   
@@ -43,14 +39,6 @@
     text-align: center;
 }
 
-.card-container h2 {
-    font-size: 20px;
-}
-
-.card-container p {
-    font-size: 14px;
-}
-
 .card-button,
 .card-button:link,
 .card-button:visited {
@@ -58,14 +46,13 @@
     color: #fae7d6;
     border: none;
     border-radius: 20px;
-    margin:4rem 4rem 0;
+    margin: 1rem 1rem 0;
     padding: 1rem 1rem;
     font-size: 1 rem;
     text-align: center;
-    text-decoration: none;
     transition: all .3s;
     display: block;
-    width: 5rem;
+    width: 8rem;
     box-shadow: 0 .4rem .5rem rgba(0, 0, 0, .2);
 }
 

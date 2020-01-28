@@ -1,6 +1,5 @@
 @import url(heading.css);
-@import url(navigation.css);
-@import url(sidebar.css);
+@import url(new-navigation.css);
 @import url(card.css);
 @import url(containers.css);
 @import url(footer.css);
@@ -16,10 +15,11 @@
 body {
     background-image: url("../images/star-bg.svg");
     background-color:rgb(2, 2, 20);
-    font-family: sans-serif;
     margin: 100px;
     border-radius: 10px;
     color: wheat;
+    font-weight: 400;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .wrapper {
@@ -28,22 +28,11 @@ body {
     grid-template-columns: repeat(4, [col] auto ) ;
     grid-template-rows: repeat(2, [row] auto );
     border-radius: 10px;
-}
+} 
 
-section h1 {
-  font-family: sans-serif;
-  font-size: 36px;
-}
 
-section h2 {
-  font-family: sans-serif;
-  font-size: 26px;
-}
 
-section h3 {
-  font-family: sans-serif;
-  font-size: 16px;
-}
+
 
 
 

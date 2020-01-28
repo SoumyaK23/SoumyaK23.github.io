@@ -7,25 +7,29 @@
     padding: 35px;
     text-align: center;
     color: #222;
-    background-image:linear-gradient(
-        to right bottom,
-        rgba(226, 241, 229, 0.158),
-        rgba(59, 55, 47, 0.25)), url(./../images/header.jpg);
+    background-image: url(./../images/header-a.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     position: relative;
 }
 
-.title {
-    margin-top: 4rem;
-    text-align: center;
-    font-size: 2.3rem;
+#title {
     grid-column: center-start / center-end;
     grid-row: 2 / -1;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: rgba(43, 43, 9, 0.164);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    text-align: center;
+ 
 }
 
-.title-text {
+#title-text {
     color: #000522;
     margin-top: 12rem;
     font-weight: 400;
