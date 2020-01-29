@@ -1,5 +1,6 @@
 @import url(heading.css);
 @import url(new-navigation.css);
+@import url(navigation.css);
 @import url(card.css);
 @import url(containers.css);
 @import url(footer.css);
@@ -18,8 +19,8 @@ body {
     margin: 100px;
     border-radius: 10px;
     color: wheat;
-    font-weight: 400;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
+    font-weight: 200;
 }
 
 .wrapper {
@@ -29,6 +30,7 @@ body {
     grid-template-rows: repeat(2, [row] auto );
     border-radius: 10px;
 } 
+
 
 
 

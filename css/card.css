@@ -11,25 +11,24 @@
     padding: 5px;
     justify-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .card-text{
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 200;
     justify-items: center;
 }
 
-.card p {
-    font-size: 13px;
-    font-weight: 400;
-    justify-items: center;
+.card img{
+    width: 100%;
+    height:250px;
+    justify-content: center;
 }
   
 .card:hover{
     box-shadow: 0 8px 16px 0 rgba(228, 10, 10, 0.2);
     cursor:pointer;
-    color: yellowgreen;
 }
   
 .card-container {
@@ -45,15 +44,14 @@
     background-color: #661;
     color: #fae7d6;
     border: none;
-    border-radius: 20px;
-    margin: 1rem 1rem 0;
-    padding: 1rem 1rem;
+    border-radius: 30px;
+    margin: 0.5rem 3.5rem 0;
+    padding: 0.5rem 0.5rem;
     font-size: 1 rem;
     text-align: center;
     transition: all .3s;
     display: block;
-    width: 8rem;
-    box-shadow: 0 .4rem .5rem rgba(0, 0, 0, .2);
+    width: 10rem;
 }
 
 .card-button:hover {
@@ -66,3 +64,5 @@
     transform: scale(.98);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
+
+
