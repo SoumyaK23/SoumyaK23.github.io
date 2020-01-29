@@ -1,15 +1,14 @@
-## Welcome to GitHub Pages
+### Front End Nanodegree Program
 
-You can use the [editor on GitHub](https://github.com/SoumyaK23/SoumyaK23.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Front End Nanodegree Project Resources for Personal blog:
+https://review.udacity.com/#!/rubrics/2667/view
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Folders
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+1. css: styling sheets for homepage and blogpost
+2. images: all images used for the project 
+3. index.html: Home page
+4. blogpost.html: example blogpost linked to the homepage
 
 # Header 1
 ## Header 2
