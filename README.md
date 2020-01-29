@@ -20,7 +20,7 @@ In this project, code is written across a handful of HTML and CSS files.
 - Evaluate A News Article with Natural Language Processing
 - Capstone
 
-## Udacity style guides
+## Udacity style guides used throughout the nanodegree program
 
-[Link](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
+[HTML and CSS](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
 
