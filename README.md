@@ -6,7 +6,7 @@ https://review.udacity.com/#!/rubrics/2667/view
 Project to complete component 1: CSS, Website Layout, Website Components
 In this project, code is written across a handful of HTML and CSS files.
 
-## Folders guiide
+## Folders guide
 
 1. css: styling sheets for homepage and blogpost
 2. images: all images used for the project 
