@@ -11,135 +11,152 @@
     </head>
 
     <body>
-        <section id="wrapper">
+    <section id="wrapper">
 
-            <div class="navigation">
-                <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
         
-                <label for="navi-toggle" class="navigation__button">
-                         <span class="navigation__icon">&nbsp;</span>
-                </label>
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
                 
-                <div class="navigation__background">&nbsp;</div>
-                <nav class="navigation__nav">
-                    <ul class="navigation__list">
-                        <li class="navigation__item"><a href="#" class="navigation__link">Weekend destinations</a></li>
-                        <li class="navigation__item"><a href="#" class="navigation__link">Off the beaten path</a></li>
-                        <li class="navigation__item"><a href="#" class="navigation__link">New Adventures</a></li>   
-                        <li class="navigation__item"><a href="#" class="navigation__link">Contact us</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <header class="heading">
-                <div id="title">
-                <h1 id="title-text">The travel blog</h1>
-                </div>
-            </header>
- 
-    <article>
-    <section>
+        <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>Name:</span>Soumya Krishnamurthy</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>Short Bio:</span>
+                    <br>Multidisciplinary, curious and a go-getter, I have successfully donned the hat of a teacher, team coordinator and software engineer, with proven track record of working across countries implementing customer-focused solutions.</a></li>   
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>Social media</span><br></a>
+                  <a href="https://github.com/SoumyaK23"> <img src="./images/github-logo.png" alt="Github"> </a> 
+                <a href="https://www.linkedin.com/in/soumya-krishnamurthy-93517a2/"> <img src="./images/linkedin-logo.png" alt="LinkedIn"> &nbsp; </a></li>
+                </ul>
+            </nav>
+        </div>
 
-    <!-- Row 1: Weekend destinations -->
+        <header class="heading">
+        <div id="title">
+            <h1 id="title-text">The travel blog</h1>
+        </div>
+        </header>
+
+        <nav class="navigation">
+            <a href="#flex-container-adventure">Wild Adventures  | </a>
+            <a href="#flex-container-offbeatenpath"> Off the beaten path  | </a>
+            <a href="#flex-container-weekend"> Weekend destinations</a>
+        </nav>
+    </section>
+    <article>
+
+    <!-- Row 1: Adventures -->
+    <section id="flex-container-adventure">
+    <h2>Adventures at every corner</h2>
+        
+    <div class="card">
+        <img src="./images/name.jpg" alt="North Africa"> <!-- Photo from TripAdvisor: Paris -->
+            <div class="card-title">North Africa</div>     
+            <div class="card-container">   
+                <p class="card-text"> A floating masterpiece </p> 
+                <a class="card-button" href="html/post-venice.html" aria-label="Read post">Discover Venice</a>
+            </div>
+        </div>   
+    </div>
+            
+    <div class="card">
+        <img src="./images/antartica.jpg" alt="Antartica"> <!-- Photo from TripAdvisor: Paris -->
+            <div class="card-title">Antartica</div>     
+            <div class="card-container">   
+                <p class="card-text">Last great wilderness </p> 
+                <a class="card-button" href="html/post-site.html" aria-label="Read post">Discover Paris</a>
+            </div>
+        </div>
+    </div>   
+    
+    <div class="card">
+        <img src="./images/india.jpg" alt="India"> <!-- Photo from TripAdvisor: Paris -->
+            <div class="card-title">Indian sub-continent</div>     
+            <div class="card-container">   
+                <p class="card-text">Astonishing cultural diversity </p> 
+                <a class="card-button" href="html/post-site.html" aria-label="Read post">Discover Barcelona</a>
+            </div>
+        </div>
+    </div>    
+    </section>
+
+     <!-- Row 2: Off the beaten path -->
+    <section id="flex-container-offbeatenpath">
+    <h2>Unexplored destinations </h2>
+            
+    <div class="card">
+        <img src="./images/ladakh.jpg" alt="Ladakh"> <!-- Photo from TripAdvisor: Paris -->
+            <div class="card-title">Ladakh</div>     
+            <div class="card-container">   
+                <p class="card-text"> Ultimate escapist dream </p> 
+                <a class="card-button" href="html/post-venice.html" aria-label="Read post">Discover Venice</a>
+            </div>
+        </div>   
+    </div>
+    
+     <div class="card">
+        <img src="./images/namibia.jpg" alt="Namib desert"> <!-- Photo from TripAdvisor: Paris -->
+             <div class="card-title">Namib desert</div>     
+            <div class="card-container">   
+                <p class="card-text">Stargazing with wildlife </p> 
+                <a class="card-button" href="html/post-site.html" aria-label="Read post">Discover Barcelona</a>
+            </div>
+        </div> 
+    </div>
+                
+    <div class="card">
+        <img src="./images/denmark.jpg" alt="Faroe Islands"> <!-- Photo from TripAdvisor: Paris -->
+            <div class="card-title">Faroe Islands</div>     
+            <div class="card-container">   
+                <p class="card-text">Rugged coastlines </p> 
+                <a class="card-button" href="html/post-site.html" aria-label="Read post">Discover Paris</a>
+            </div>
+        </div> 
+    </div>      
+    </section>
+
+    <!-- Row 3: Weekend destinations -->
     <section id="flex-container-weekend">
-        <h2>Weekend destinations</h2>
-        <div class="card">
-            <img src="./images/venice.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
+    <h2>Weekend destinations</h2>
+    
+    <div class="card">
+        <img src="./images/venice.jpg" alt="Venice"> <!-- Photo from TripAdvisor: Paris -->
             <div class="card-title">Venice</div>     
             <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
+                <p class="card-text"> A floating masterpiece </p> 
+                <a class="card-button" href="html/post-venice.html" aria-label="Read post">Discover Venice</a>
+            </div>
         </div>   
+    </div>
         
-        <div class="card">
-            <img src="./images/paris.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
+    <div class="card">
+        <img src="./images/paris.jpg" alt="Paris"> <!-- Photo from TripAdvisor: Paris -->
             <div class="card-title">Paris</div>     
             <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
-        </div>   
+                <p class="card-text">Romantic and iconic  </p> 
+                <a class="card-button" href="html/post-site.html" aria-label="Read post">Discover Paris</a>
+            </div>
+        </div> 
+    </div>  
 
-        <div class="card">
-            <img src="./images/paris.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
-            <div class="card-title">Paris</div>     
+    <div class="card">
+        <img src="./images/barcelona.jpg" alt="Barcelona"> <!-- Photo from TripAdvisor: Paris -->
+            <div class="card-title">Barcelona</div>     
             <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
-        </div>    
+                <p class="card-text">Enchanting, fabled architecture </p> 
+                <a class="card-button" href="html/post-site.html" aria-label="Read post">Discover Barcelona</a>
+            </div>
+        </div>
+    </div>    
     </section>
     
-    <!-- Row 2: Off the beaten path -->
-    <section id="flex-container-offbeatenpath">
-        <h2>Unexplored destinations </h2>
-        <div class="card">
-            <img src="./images/paris.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
-            <div class="card-title">Paris</div>     
-            <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
-        </div>   
-        
-        <div class="card">
-            <img src="./images/paris.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
-            <div class="card-title">Paris</div>     
-            <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
-        </div>   
-
-        <div class="card">
-            <img src="./images/paris.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
-            <div class="card-title">Paris</div>     
-            <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
-        </div>     
-    </section>
-
-    <!-- Row 3: Adventures -->
-    <section id="flex-container-adventure">
-        <h2>Adventures at every corner</h2>
-        <div class="card">
-            <img src="./images/paris.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
-            <div class="card-title">Paris</div>     
-            <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
-        </div>   
-            
-        <div class="card">
-            <img src="./images/paris.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
-            <div class="card-title">Paris</div>     
-            <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
-        </div>   
-    
-        <div class="card">
-            <img src="./images/paris.jpg" alt="Paris" style="width:100%"> <!-- Photo from TripAdvisor: Paris -->
-            <div class="card-title">Paris</div>     
-            <div class="card-container">   
-                    <p class="card-text">Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc.  </p> 
-                    <a class="card-button" href="html/post-site.html" aria-label="Read post">Read more...</a>
-                </div>
-        </div>   
-    </section>
-
-
 </article>
-</section>
 
 <footer>    
-    <img src="./images/soumya-circle-thumb.png">
     <p class="footer__copyright">  Copyright &copy; 
-        Built by <a href="https://github.com/SoumyaK23" target="_blanc" class="footer__link">Soumya Krishnamurthy</a> for the online course UDACITY personal blog project</a>. 
+        Built by <a href="https://github.com/SoumyaK23" target="_blanc" class="footer__link">Soumya Krishnamurthy</a> for the online course: UDACITY personal blog project</a>. 
         <!-- You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated! -->
     </p>
 </footer>
