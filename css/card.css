@@ -1,3 +1,8 @@
+/* Copyright by Soumya Krishnamurthy. This is the  style sheet that is added as part of the first project for 
+Udacity nanodegree program. All parts of the code are original.  */
+
+/* Style for the cards used in index.html */
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(231, 228, 13, 0.2);
     transition: 0.3s;
@@ -26,9 +31,10 @@
     justify-content: center;
 }
   
-.card:hover{
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(228, 10, 10, 0.2);
     cursor:pointer;
+    transform: scale(1.10);
 }
   
 .card-container {

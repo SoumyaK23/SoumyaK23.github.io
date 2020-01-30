@@ -1,3 +1,8 @@
+/* Copyright by Soumya Krishnamurthy. This is the  style sheet that is added as part of the first project for 
+Udacity nanodegree program. All parts of the code are original.  */
+
+/* Style for the footer */
+
 footer {
     grid-column: col 1/ span 4;
     grid-row: row 6;
@@ -5,10 +10,14 @@ footer {
     padding: 50px;
     border-top: 1px solid #c4c4c4;
     padding: 5px 0;
+}
+
+.footer-copyright {
     color: #661;
     font-size: large;
     justify-content: center;
 }
+
 
 
    

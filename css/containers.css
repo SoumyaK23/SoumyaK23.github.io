@@ -1,5 +1,7 @@
+/* Copyright by Soumya Krishnamurthy. This is the  style sheet that is added as part of the first project for 
+Udacity nanodegree program. All parts of the code are original.  */
 
-/* Styles for the containers */
+/* Styles for the flex containers used in index.html*/
 
 #flex-container-weekend {
   grid-row: row 3;
@@ -21,3 +23,4 @@
   flex-direction: row wrap;
   justify-content: center;
 }
+

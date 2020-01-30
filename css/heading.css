@@ -1,5 +1,8 @@
+/* Copyright by Soumya Krishnamurthy. This is the  style sheet that is added as part of the first project for 
+Udacity nanodegree program. All parts of the code are original.  */
 
 /* Style for the header */
+
 .heading {
     grid-column: col 1/ span 4;
     grid-row: row 1;
