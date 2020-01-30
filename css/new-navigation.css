@@ -127,17 +127,42 @@ width: 40px;
 @media only screen and (max-width: 56.25em) {
   .navigation__button {
     top: 4rem;
-    right: 4rem; } }
+    right: 4rem; }
+  
+  .navigation__background {
+      top: 4.5rem;
+      right: 4.5rem; 
+  }
+    
+  .navigation__link:link, .navigation__link:visited {
+        font-size: 10vw;
+        font-weight: 150;
+        padding: 1rem 1rem;
+        color: rgba(43, 43, 9, 0.836);
+        text-decoration: none;
+        background-size: 150%;
+        transition: all .4s; 
+      }
+  }
+
 @media only screen and (max-width: 37.5em) {
   .navigation__button {
     top: 3rem;
-    right: 3rem; } }
+    right: 3rem; } 
+  
+  .navigation__background {
+      top: 3.5rem;
+      right: 3.5rem; }
 
-    @media only screen and (max-width: 56.25em) {
-      .navigation__background {
-        top: 4.5rem;
-        right: 4.5rem; } }
-    @media only screen and (max-width: 37.5em) {
-      .navigation__background {
-        top: 3.5rem;
-        right: 3.5rem; } }
+  .navigation__link:link, .navigation__link:visited {
+      font-size: 10vw;
+      font-weight: 150;
+      padding: 1rem 1rem;
+      color: rgba(43, 43, 9, 0.836);
+      text-decoration: none;
+      background-size: 50%;
+      transition: all .4s; 
+      }
+  }
+
+

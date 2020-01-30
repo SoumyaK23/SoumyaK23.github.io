@@ -7,13 +7,6 @@
 @import url(footer.css);
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-
 body {
     background-image: url("../images/star-bg.svg");
     background-color:rgb(2, 2, 20);
@@ -31,6 +24,17 @@ body {
     grid-template-rows: repeat(2, [row] auto );
     border-radius: 10px;
 } 
+
+@media only screen and (max-width: 56.25em) {
+  .body {
+    margin: 50px; }
+}
+
+
+@media only screen and (max-width: 37.5em) {
+  .body {
+    margin: 20px; }
+}
 
 
 
