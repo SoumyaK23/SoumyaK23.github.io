@@ -7,7 +7,6 @@ footer {
     grid-column: col 1/ span 4;
     grid-row: row 6;
     display: flex;
-    padding: 50px;
     border-top: 1px solid #c4c4c4;
     padding: 5px 0;
 }
@@ -16,6 +15,18 @@ footer {
     color: #661;
     font-size: large;
     justify-content: center;
+}
+
+/* Responsive layout for medium Screens: default is larger screens */
+@media (min-width: 600px) and (max-width:900px){
+.footer-copyright {
+    font-size: medium; }
+}
+    
+/* Responsive layout for small Screens: default is larger screens */  
+@media only screen and (max-width: 600px) {
+.footer-copyright {
+    font-size: small; }
 }
 
 

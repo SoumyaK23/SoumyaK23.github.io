@@ -10,7 +10,6 @@ Udacity nanodegree program. All parts of the code are original.  */
     justify-content: center;
     text-align: center;
     display: flex;
-    border-radius: 5px;
 }
 
 /* Style the navigation bar links */
@@ -23,7 +22,21 @@ Udacity nanodegree program. All parts of the code are original.  */
     font-size: x-large;
 }
 
-    /* Change color on hover */
+/* Change color on hover */
 .navigation a:hover {
     color: rgb(243, 205, 54);
+}
+
+/* Responsive layout for Medium Screens: default is larger screens */
+@media (min-width: 600px) and (max-width:900px){
+.navigation a  {
+    font-weight: 150;
+    font-size: large; }
+}
+    
+/* Responsive layout for small Screens: default is larger screens */  
+@media only screen and (max-width: 600px) {
+.navigation a  {
+    font-weight: 100;
+    font-size: medium; }
 }

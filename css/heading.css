@@ -6,34 +6,46 @@ Udacity nanodegree program. All parts of the code are original.  */
 .heading {
     grid-column: col 1/ span 4;
     grid-row: row 1;
-    border-radius: 5px;
     padding: 35px;
-    text-align: center;
     color: #222;
     background-image: url(./../images/header-a.jpg);
-    background-size: cover;
+    width: 100%;
     background-position:center;
     background-repeat: no-repeat;
     position: relative;
+    text-align: center;
 }
 
 #title {
     grid-column: center-start / center-end;
     grid-row: 2 / -1;
     display: inline-block;
-    font-size: 3rem;
-    font-weight: 300;
     padding: 1rem 2rem;
     color: rgba(43, 43, 9, 0.164);
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 4rem;
-    text-align: center;
- 
 }
 
 #title-text {
     color: #000522;
-    margin-top: 12rem;
+    font-size: 3rem;
     font-weight: 400;
+    margin-top: 12rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+/* Responsive layout for Medium Screens: default is larger screens */
+@media (min-width: 600px) and (max-width:900px){
+#title-text {
+    margin: 25px;
+    font-size: 2.5rem;
+    font-weight: 150;}
+}
+
+/* Responsive layout for small Screens: default is larger screens */    
+@media only screen and (max-width: 600px) {
+#title-text {
+        margin: 10px;
+        font-size: 2rem;
+        font-weight: 100; }
 }

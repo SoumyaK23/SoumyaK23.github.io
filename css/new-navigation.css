@@ -38,9 +38,8 @@ Udacity nanodegree program. All parts of the code are edited from the https://do
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1500;
+  z-index: 1000;
   opacity: 0;
-
 }
 
 .navigation__list {
@@ -63,18 +62,18 @@ width: 40px;
 }
 
 .navigation__link:link, .navigation__link:visited {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 150;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   color: rgba(43, 43, 9, 0.836);
-  text-decoration: none;
-  background-size: 250%;
-  transition: all .4s; 
 }
+
 .navigation__link:link span, .navigation__link:visited span {
+  font-size: 25px;
+  font-weight: 250;
+  font-style: bold;
   margin-right: 1.5rem;
   display: inline-block;
-  font-style: bold;
 }
 
 .navigation__link:hover, .navigation__link:active {
@@ -124,45 +123,56 @@ width: 40px;
     top: 0; 
 }
 
-@media only screen and (max-width: 56.25em) {
-  .navigation__button {
-    top: 4rem;
-    right: 4rem; }
+/* Responsive layout for medium Screens: default is larger screens */
+@media (min-width: 600px) and (max-width:900px){
+.navigation__button {
+  top: 4rem;
+  right: 4rem; }
   
-  .navigation__background {
-      top: 3rem;
-      right: 3rem; 
-  }
-    
-  .navigation__link:link, .navigation__link:visited {
-        font-size: 10vw;
-        font-weight: 150;
-        padding: 1rem 1rem;
-        color: rgba(43, 43, 9, 0.836);
-        text-decoration: none;
-        background-size: 150%;
-        transition: all .4s; 
-      }
-  }
+.navigation__background {
+  top: 3rem;
+  right: 3rem; }
+ 
+.navigation__list {
+  top: 50%;
+  left: 70%;
+  width: 100%; 
+  padding: 0.5rem 0.5rem;}
 
-@media only screen and (max-width: 37.5em) {
-  .navigation__button {
-    top: 4.5rem;
-    right: 4.5rem; } 
+.navigation__link p  {
+  font-size: 20px;
+  font-weight: 100; }
+
+.navigation__link:link span, .navigation__link:visited span {
+  font-size: 30px;
+  font-weight: 250;
+  font-style: bold; }
+}
+
+/* Responsive layout for small Screens: default is larger screens */ 
+@media only screen and (max-width: 600px) {
+.navigation__button {
+  top: 4.5rem;
+  right: 4.5rem; } 
   
-  .navigation__background {
-      top: 3.5rem;
-      right: 3.5rem; }
+.navigation__background {
+  top: 3.5rem;
+  right: 3.5rem; }
 
-  .navigation__link:link, .navigation__link:visited {
-      font-size: 12px;
-      font-weight: 150;
-      padding: 1rem 1rem;
-      color: rgba(43, 43, 9, 0.836);
-      text-decoration: none;
-      background-size: 50%;
-      transition: all .4s; 
-      }
-  }
+.navigation__list {
+  top: 50%;
+  left: 70%;
+  width: 100%; 
+  padding: 0.5rem 0.5rem;}
+
+.navigation__link p {
+  font-size: 16px;
+  font-weight: 100; }
+
+.navigation__link:link span, .navigation__link:visited span {
+  font-size: 20px;
+  font-weight: 100;
+  font-style: bold; }
+}
 
 

@@ -9,9 +9,8 @@
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 body {
     background-image: url("../images/star-bg.svg");
-    background-color:rgb(2, 2, 20);
     margin: 100px;
-    border-radius: 10px;
+    background-color:rgb(2, 2, 20);
     color: wheat;
     font-family: sans-serif;
     font-weight: 200;
@@ -22,19 +21,22 @@ body {
     grid-gap: 10px;
     grid-template-columns: repeat(4, [col] auto ) ;
     grid-template-rows: repeat(2, [row] auto );
-    border-radius: 10px;
 } 
 
-@media only screen and (max-width: 56.25em) {
-  .body {
-    margin: 50px; }
+/* Responsive layout for medium Screens: default is larger screens */
+@media (min-width: 600px) and (max-width:900px){
+body {
+    margin: 25px;
+    font-weight: 100; }
 }
 
-
-@media only screen and (max-width: 37.5em) {
-  .body {
-    margin: 20px; }
+/* Responsive layout for small Screens: default is larger screens */  
+@media only screen and (max-width: 600px) {
+body {
+    margin: 10px;
+    font-weight: 100; }
 }
+
 
 
 
