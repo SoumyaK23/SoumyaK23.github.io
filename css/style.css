@@ -1,5 +1,4 @@
 @import url(heading.css);
-@import url(new-navigation.css);
 @import url(navigation.css);
 @import url(blogpost.css);
 @import url(card.css);
@@ -16,12 +15,12 @@ body {
     font-weight: 200;
 }
 
-.wrapper {
+#wrapper {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(4, [col] auto ) ;
     grid-template-rows: repeat(2, [row] auto );
-} 
+}
 
 /* Responsive layout for medium Screens: default is larger screens */
 @media (min-width: 600px) and (max-width:900px){

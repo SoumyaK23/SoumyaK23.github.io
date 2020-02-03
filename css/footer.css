@@ -17,6 +17,23 @@ footer {
     justify-content: center;
 }
 
+.footer-list {
+    color: #661;
+    font-size: large;
+    justify-content: center;
+}
+
+.footer-item {
+    color: #661;
+    font-size: large;
+    justify-content: left;
+}
+
+.footer-img{
+    height: 50px;
+    width: 50px;
+}
+
 /* Responsive layout for medium Screens: default is larger screens */
 @media (min-width: 600px) and (max-width:900px){
 .footer-copyright {
