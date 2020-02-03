@@ -3,7 +3,6 @@ Udacity nanodegree program. All parts of the code are original.  */
 
 /* Style for the blogpost page */
 
-@import url(new-navigation.css);
 @import url(navigation.css);
 @import url(blogpost.css);
 @import url(footer.css);
