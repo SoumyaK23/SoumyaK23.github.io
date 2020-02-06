@@ -5,10 +5,10 @@ Udacity nanodegree program. All parts of the code are original.  */
 
 footer {
     grid-column: col 1/ span 4;
-    grid-row: row 6;
+    grid-row: row 7;
     display: flex;
     border-top: 1px solid #c4c4c4;
-    padding: 5px 0;
+    padding: 5px 5px;
 }
 
 .footer-copyright {

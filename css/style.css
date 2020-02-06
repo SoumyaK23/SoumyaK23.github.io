@@ -1,18 +1,20 @@
-@import url(heading.css);
-@import url(navigation.css);
-@import url(blogpost.css);
-@import url(card.css);
-@import url(containers.css);
-@import url(footer.css);
+@import url("heading.css");
+@import url("navigation.css");
+@import url("blogpost.css");
+@import url("card.css");
+@import url("containers.css");
+@import url("avatar.css");
+@import url("footer.css");
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 body {
     background-image: url("../images/star-bg.svg");
-    margin: 100px;
     background-color:rgb(2, 2, 20);
     color: wheat;
     font-family: sans-serif;
     font-weight: 200;
+    margin: 50px;
+    padding: 2rem;
 }
 
 #wrapper {

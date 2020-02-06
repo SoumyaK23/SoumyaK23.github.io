@@ -8,6 +8,7 @@ Udacity nanodegree program. All parts of the code are original.  */
   display: flex;
   flex-direction: row wrap;
   justify-content: center;
+  padding:35px;
 }
 
 #flex-container-offbeatenpath {
@@ -19,6 +20,13 @@ Udacity nanodegree program. All parts of the code are original.  */
 
 #flex-container-adventure {
   grid-row: row 5;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+}
+
+#flex-container-avatar {
+  grid-row: row 6;
   display: flex;
   flex-direction: row wrap;
   justify-content: center;
