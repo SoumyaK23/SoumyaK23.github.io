@@ -50,16 +50,20 @@
 
 /* Responsive layout for small Screens: default is larger screens */    
 @media only screen and (max-width: 600px) {
-#title-text {
-      margin: 10px;
-      font-size: 2rem;
-      font-weight: 100; }
+.header {
+    padding: 10px;
+    width: 100%;
+  }
+  #title-text {
+  margin: 10px;
+  font-size: 2rem;
+  font-weight: 100; }
 }
 
 /* Style the navigation bar links */
 .navigation a {
   color: rgb(111, 118, 228);
-  padding: 10px 10px;
+  padding: 5px 5px;
   text-decoration: none;
   text-align: center;
   font-weight: 200;
@@ -105,8 +109,9 @@
 }
       
 .sidebar-card h1 {
-color: rgb(22, 22, 54);
+color: #661;
 text-align: center;
+font-size: 24px;
 }
 
 .sidebar-card p{
@@ -116,6 +121,8 @@ color: gray;
 
 .sidebar-card img {
   padding: 10px;
+  height: 50px;
+  width: 50px;
 }
 
 #profile-pic{
@@ -123,6 +130,7 @@ color: gray;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 100%
 }
 
 #avatar-title {
@@ -152,7 +160,7 @@ color: gray;
   padding: 20px;  
 }
 
-.blog-post-title {
+article h1 {
   color: #010c47;
   font: 24px;
 }
@@ -164,6 +172,12 @@ color: gray;
 .blog-post p {
   font-size: 20px;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}​
 
 button {
   background-color: #661;
@@ -177,7 +191,6 @@ button {
 
 /* Responsive layout for medium Screens: default is larger screens */
 @media (min-width: 600px) and (max-width:900px){
-
   .blog-post-title {
     font-size: 20px; }
 
@@ -188,28 +201,49 @@ button {
     
   /* Responsive layout for small Screens: default is larger screens */  
   @media only screen and (max-width: 600px) {
+    .blog-body {
+      margin: 0rem; }
+    .blog-post {
+      grid-column: col 1/ span 4;
+      display: flex;
+      flex: 100%;
+      flex-direction: column; 
+       margin: none;
+      padding: none;}
     .blog-post-title {
-    font-size: 16px; }
+      font-size: 16px; }
     .blog-post p {
       font-size: 14px; }
     .sidebar {
       grid-column: col 1/ span 4;
       grid-row: row 4;
       display: flex;
+      flex: 100%;
+      padding: 1px; }
+    .sidebar-card h1 {
+    font-size: 12px; }
+    .sidebar-card p{
+      font-size: 12px; }
+    .sidebar-card img {
       padding: 5px;
-      }
-      .sidebar-card h1{
-        font-size: 14px;
-      }
-      .blog-body {
-      margin: 2rem; }
-  }
+      height: 25px;
+      width: 25px; }
+    .sidebar-card li {
+      font-size: 12px; }
+    #avatar-title {
+     font-size: 12px; }
+    #profile-pic{
+      display: block;
+      padding: 5px;
+      height: 30px;
+      width: 30px; }
+}
 
 /* Style for the footer */
 
 footer {
   grid-column: col 1/ span 4;
-  grid-row: row 5;
+  grid-row: row 6;
   display: flex;
   border-top: 1px solid #c4c4c4;
   padding: 5px 5px;
@@ -219,23 +253,6 @@ footer {
   color: #661;
   font-size: large;
   justify-content: center;
-}
-
-.footer-list {
-  color: #661;
-  font-size: large;
-  justify-content: center;
-}
-
-.footer-item {
-  color: #661;
-  font-size: large;
-  justify-content: left;
-}
-
-.footer-img{
-  height: 50px;
-  width: 50px;
 }
 
 /* Responsive layout for medium Screens: default is larger screens */
