@@ -33,4 +33,4 @@ There are no other contributors
 [HTML and CSS](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
 
 ## Screenshot
-![index.html](https://soumyak23.github.io/)
+![index.html](index-html.png)
