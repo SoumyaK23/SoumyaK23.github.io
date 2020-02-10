@@ -152,7 +152,7 @@
 	height: 100%
 }
 
-#avatar-title {
+figcaption {
 	text-align: center;
 	font-size: 20px;
 	color: rgb(46, 44, 44);
