@@ -46,6 +46,9 @@ Udacity nanodegree program. All parts of the code are original.  */
 /* Responsive layout for small Screens: default is larger screens */
 
 @media only screen and (max-width: 600px) {
+	.navigation {
+		flex-direction: column;
+	}
 	.navigation a {
 		font-weight: 100;
 		font-size: medium;

@@ -158,6 +158,13 @@ figcaption {
 	color: rgb(46, 44, 44);
 }
 
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
 
 /* Style the top navigation bar */
 
@@ -168,6 +175,7 @@ figcaption {
 	justify-content: center;
 	text-align: center;
 	display: flex;
+	flex-direction: column;
 }
 
 
@@ -264,9 +272,11 @@ ul {
 	.sidebar {
 		grid-column: col 1/ span 4;
 		grid-row: row 4;
+		flex-direction: column;
 		display: flex;
 		flex: 100%;
 		padding: 1px;
+		text-align: center;
 	}
 	.sidebar-card h1 {
 		font-size: 12px;
