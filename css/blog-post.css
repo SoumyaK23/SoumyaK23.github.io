@@ -1,3 +1,9 @@
+/* Copyright by Soumya Krishnamurthy. This is the  style sheet that is added as part of the first project for 
+Udacity nanodegree program. All parts of the code are original.  */
+
+
+/* Style the blog posts page : blogpost.html */
+
 .blog-body {
 	display: grid;
 	grid-gap: 10px;
@@ -175,7 +181,7 @@ img {
 	justify-content: center;
 	text-align: center;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 
@@ -245,6 +251,9 @@ ul {
 @media only screen and (max-width: 600px) {
 	.blog-body {
 		margin: 0rem;
+	}
+	.navigation {
+		flex-direction: column;
 	}
 	.blog-post {
 		grid-column: col 1/ span 4;
