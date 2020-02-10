@@ -8,10 +8,18 @@ In this project, code is written across a handful of HTML and CSS files.
 
 ## Folders guide
 
+All files requied to display index.html and blogpost.html are found here
+
 1. css: styling sheets for homepage and blogpost
 2. images: all images used for the project 
 3. index.html: Home page
 4. blogpost.html: example blogpost linked to the homepage
+(click on Discover our tours)
+
+## Contributors
+
+All code is original and written by Soumya Krishnamurthy.
+There are no other contributors
 
 ## Future projects
 
@@ -24,3 +32,5 @@ In this project, code is written across a handful of HTML and CSS files.
 
 [HTML and CSS](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
 
+## Screenshot
+![index.html](https://soumyak23.github.io/)
