@@ -7,21 +7,18 @@ Udacity nanodegree program. All parts of the code are original.  */
 #flex-container-weekend {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
 #flex-container-offbeatenpath {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
 #flex-container-adventure {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
